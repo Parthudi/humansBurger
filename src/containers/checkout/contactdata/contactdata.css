@@ -1,0 +1,25 @@
+.contactdata {
+    margin: 20px auto;
+    width: 80% ;
+    text-align: center; 
+    box-shadow: 1px 5px 3px rgb(119, 111, 111); 
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: pink
+}
+
+.contactdata:hover {
+    overflow: hidden;
+    transform: scale(0.987);
+}
+
+.contactdata::placeholder {
+    text-align: center;
+}
+
+@media (width:600px) {
+    .contactdata{
+        width: 500px;
+    }
+}

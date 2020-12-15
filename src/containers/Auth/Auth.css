@@ -1,0 +1,26 @@
+.auth {
+    margin: 20px auto;
+    width: 50% ;
+    text-align: center; 
+    box-shadow: 6px 10px 7px rgb(194, 129, 148); 
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgb(202, 144, 174);
+    border-radius: 2px;
+}
+
+.auth:hover {
+    overflow: hidden;
+    transform: scale(0.987);
+}
+
+.auth::placeholder {
+    text-align: center;
+}
+
+@media (width:600px) {
+    .auth{
+        width: 500px;
+    }
+}
